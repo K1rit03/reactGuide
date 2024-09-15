@@ -57,3 +57,36 @@
 
 // const maping = hobbies.map((item) => item + "!");
 // console.log(maping)
+
+// const [firstName,lastName]  =  ["Thiago", "Oliveira"];
+
+// // const firstName = userNameData[0];
+// // const lastName = userNameData[1];
+// console.log(firstName);
+// console.log(lastName);
+
+// const {name, age} = {
+//     name: "Thiago",
+//     age: 18
+// };
+// console.log(name);
+// console.log(age);
+// const name = user.name;
+// const age = user.age;
+
+const hobbies = ["sports","cooking"];
+const user = {
+    name: "Thiago",
+    age: 18
+};
+
+const newHobbies = ["Reading"];
+const mergedHobbies = [...hobbies, ...newHobbies];
+console.log(mergedHobbies);
+
+const extendUser = {
+    isAdmin: true,
+    ...user
+};
+
+console.log(extendUser);
