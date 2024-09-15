@@ -74,19 +74,50 @@
 // const name = user.name;
 // const age = user.age;
 
-const hobbies = ["sports","cooking"];
-const user = {
-    name: "Thiago",
-    age: 18
-};
+// const hobbies = ["sports","cooking"];
+// const user = {
+//     name: "Thiago",
+//     age: 18
+// };
 
-const newHobbies = ["Reading"];
-const mergedHobbies = [...hobbies, ...newHobbies];
-console.log(mergedHobbies);
+// const newHobbies = ["Reading"];
+// const mergedHobbies = [...hobbies, ...newHobbies];
+// console.log(mergedHobbies);
 
-const extendUser = {
-    isAdmin: true,
-    ...user
-};
+// const extendUser = {
+//     isAdmin: true,
+//     ...user
+// };
 
-console.log(extendUser);
+// console.log(extendUser);
+
+// const password = prompt('Your password');
+
+// if (password === "senhasecreta"){
+//     console.log("senha super secreta funcinou");
+// }else if (password === "senhasupersecretamaster"){
+//     console.log("senha super secreta master funcionou")
+// }else{
+//     console.log("Acesso negado")
+// }
+
+//  const hobbies = ["sports","cooking"];
+
+// for (const hobby of hobbies) {
+//     console.log(hobby);
+// }
+// function handleTimeout(){
+//     console.log("Timed out!");
+// }
+
+
+// setTimeout(handleTimeout, 2000);
+
+// function init() {
+//     function greet(){
+//         console.log("HI!")
+//     }
+//     greet();
+// }
+
+// init();
